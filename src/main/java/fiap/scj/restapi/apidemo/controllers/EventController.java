@@ -29,7 +29,7 @@ public class EventController {
     @GetMapping("/test")
     public String test() {
         // GET http://localhost:8080/event/test
-        return "<marquee>Teste efetuado com sucesso! Olá Eric</marquee>";
+        return "<marquee>Teste efetuado com sucesso! Olá Eric :P</marquee>";
     }
 
     // Retrieve All
